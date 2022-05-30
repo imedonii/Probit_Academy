@@ -11,7 +11,7 @@ body {
   position: relative;
   top: 250px;
   left: 550px;
-  text-shadow: 5px 5px 5px blue;
+  text-shadow: 8px 8px 5px black;
   font-size: 55px;
 }
 
@@ -27,7 +27,6 @@ body {
 
 .header {
   width: 100%;
-  height: 410px;
 }
 
 nav {
@@ -81,4 +80,49 @@ li a:active {
   max-height: 710px;
   position: relative;
   z-index: -1;
+}
+
+.blackSpace {
+  background-color: black;
+  width: 100%;
+  height: 50px;
+  margin-top: -20px;
+}
+
+.banner2 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  max-height: 700px;
+}
+
+.container {
+  position: relative;
+  display: inline;
+  float: left;
+  width: 40%;
+  top: -650px;
+}
+
+.container h1,
+.container p {
+  color: white;
+  font-size: 30px;
+  margin-left: 150px;
+  padding-bottom: 250px;
+}
+
+.container a {
+  font-size: 28px;
+  text-decoration: none;
+  color: white;
+  margin-left: 150px;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 10px 30px;
+}
+
+.container a:hover {
+  background-color: #4690d2;
+  font-size: 30px;
 }
